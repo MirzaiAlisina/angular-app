@@ -1,0 +1,11 @@
+<form #addObjectform ="ngForm">
+  <label for="bookTitle">Book Title:</label><br>
+  <input type="text" name="bookTitle" ngModel/><br>
+  
+  <label for="author">Author:</label><br>
+  <input type="text" name="author" ngModel/><br>
+  
+  <label for="description">Description:</label><br>
+  <textarea id="description" name="description" rows="4" cols="50" ngModel></textarea><br>
+  <button (click)="submitForm()"> Register your book</button>
+</form>

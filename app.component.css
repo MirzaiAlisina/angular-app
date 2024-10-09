@@ -1,0 +1,19 @@
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Avstånd mellan knappar */
+}
+
+.navigation-buttons button {
+  padding: 60px 120px;
+  background-color:rgb(124, 21, 21);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navigation-buttons button:hover {
+  background-color: black ;
+}

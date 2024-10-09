@@ -1,0 +1,55 @@
+/* Grundläggande styling för formuläret */
+form {
+  background-color:rgb(124, 21, 21);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+/* Stil för etiketter (labels) */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+/* Stil för textfält och textområden */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid bl;
+  border-radius: 4px;
+  box-sizing: border-box; /* Gör att padding inte påverkar totalbredden */
+}
+
+/* Stil för textarea */
+textarea {
+  resize: vertical; /* Användaren kan ändra höjden på textområdet */
+}
+
+/* Stil för skicka-knapp */
+button {
+  background-color:rgb(32, 3, 3);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Rensa flytande element */
+form::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
